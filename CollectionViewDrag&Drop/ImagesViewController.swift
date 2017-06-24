@@ -58,7 +58,6 @@ extension ImagesViewController: UICollectionViewDragDelegate, UICollectionViewDr
         /*
          coordinator.destinationIndexPath provides the destination IndexPath where content is being dropped. If it returns nil,then default behavior is to add the image in the new cell at the last of the collectionView.
          */
-        
         let destinationIndexPath: IndexPath
         if let indexPath = coordinator.destinationIndexPath {
             destinationIndexPath = indexPath
@@ -67,7 +66,6 @@ extension ImagesViewController: UICollectionViewDragDelegate, UICollectionViewDr
             let itemCount = collectionView.numberOfItems(inSection: section)
             destinationIndexPath = IndexPath(row: itemCount, section: section)
         }
-        
         /*
          coordinator.session loads the object of type UIImage from the NSItemProviderReadingItems.
          Read the first item in the array of nsItemProviderReadingItems - this is the new image that is being dropped.
