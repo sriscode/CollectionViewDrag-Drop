@@ -11,7 +11,7 @@ dragDelegate - This delegate manages the dragging of items from collection view.
 dropDelegate - This delegate manages the dropping of items to collection view
 
 
-Detailed explanation of the code is available at http://machinethinks.com/drag-and-drop-in…onview-in-ios-11/ 
+Detailed explanation of the code is available at https://machinethinks.com/drag-and-drop-in-uicollectionview-in-ios-11/ 
 
 
 
