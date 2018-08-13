@@ -23,8 +23,7 @@ class ImagesViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.dragDelegate = self
         collectionView.dropDelegate = self
-    }
-    
+    }    
 }
 
 extension ImagesViewController: UICollectionViewDelegate, UICollectionViewDataSource {
